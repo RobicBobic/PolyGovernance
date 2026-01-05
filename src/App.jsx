@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { TrendingUp, Shield, Zap, Database, DollarSign, Smartphone, Lock, Activity, Clock, ChevronDown, ChevronRight, X, Mail, Wallet } from 'lucide-react';
+import { Shield, Zap, Database, Smartphone, Lock, Activity, ChevronDown, ChevronRight, X, Wallet } from 'lucide-react';
 
 function App() {
   const [openFaq, setOpenFaq] = useState(null);
@@ -857,35 +857,35 @@ function App() {
             
             <div className="footer-links">
               <h3>Markets</h3>
-              <a href="#">Politics</a>
-              <a href="#">Crypto</a>
-              <a href="#">Sports</a>
-              <a href="#">Business</a>
+              <a href="/markets/politics">Politics</a>
+              <a href="/markets/crypto">Crypto</a>
+              <a href="/markets/sports">Sports</a>
+              <a href="/markets/business">Business</a>
             </div>
             
             <div className="footer-links">
               <h3>Company</h3>
-              <a href="#">About Us</a>
-              <a href="#">Careers</a>
-              <a href="#">Press</a>
-              <a href="#">Contact</a>
+              <a href="/about">About Us</a>
+              <a href="/careers">Careers</a>
+              <a href="/press">Press</a>
+              <a href="/contact">Contact</a>
             </div>
             
             <div className="footer-links">
               <h3>Resources</h3>
-              <a href="#">Documentation</a>
-              <a href="#">API</a>
-              <a href="#">Blog</a>
-              <a href="#">Support</a>
+              <a href="/documentation">Documentation</a>
+              <a href="/api">API</a>
+              <a href="/blog">Blog</a>
+              <a href="/support">Support</a>
             </div>
           </div>
           
           <div className="footer-bottom">
             <div>© 2026 Poly Governance. All rights reserved.</div>
             <div className="footer-legal">
-              <a href="#">Terms of Service</a>
-              <a href="#">Privacy Policy</a>
-              <a href="#">Compliance</a>
+              <a href="/terms">Terms of Service</a>
+              <a href="/privacy">Privacy Policy</a>
+              <a href="/compliance">Compliance</a>
             </div>
           </div>
         </div>
@@ -1041,7 +1041,7 @@ function App() {
               <div className="form-checkbox">
                 <input type="checkbox" id="terms" />
                 <label htmlFor="terms">
-                  I agree to the <a href="#" className="link">Terms of Service</a> and <a href="#" className="link">Privacy Policy</a>
+                  I agree to the <a href="/terms" className="link">Terms of Service</a> and <a href="/privacy" className="link">Privacy Policy</a>
                 </label>
               </div>
               
